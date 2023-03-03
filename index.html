@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BELIKAN</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Koulen", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body style="background-color: lightgrey;">
+
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px; background-color: #1d1d1d;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+    class="w3-bar-item w3-button" style="color: azure">Close Menu</a>
+    <a href="#fish" onclick="w3_close()" class="w3-bar-item w3-button" style="color:azure">Produk yang kami jual</a>
+    <a href="about/index.html" onclick="w3_close()" class="w3-bar-item w3-button" style="color: azure;">Tentang kami</a>
+    <a href="cara-pembelian/index.html" onclick="w3_close()" class="w3-bar-item w3-button" style="color: azure">Cara melakukan pembelian</a>
+    <a href="cara-merawat/index.html" onclick="w3_close()" class="w3-bar-item w3-button" style="color: azure">Cara merawat ikan koki</a>
+  </nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-xlarge w3-dark-grey" style="max-width:1200px;margin:auto; color: #1d1d1d">
+    <div class="w3-button w3-padding-8 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-8"><a class="w3-button" href="https://api.whatsapp.com/send/?phone=6289685790363&text&type=phone_number&app_absent=0">Hubungi kami</a></div>
+    <div class="w3-center w3-padding-8" style="font-family: Koulen;"><img src="logo2.PNG" style="width:100px;height:100px;" alt=""></div>
+    
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+    <div class="w3-center"><h1>WE ARE OFFERING IKAN KOKI BALI!</h1></div><br><br><br>
+    <div class="w3-left"><h2>1) Exclusive Item (50K-150K)</h2></div>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter" id="fish">
+      <img src="guppy1.jpg" alt="Sandwich" style="width:100% ;border: 5px solid #1d1d1d">
+      <h3>Gold Digger</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="guppy2.jpg" alt="Steak" style="width:100%; border: 5px solid #1d1d1d">
+      <h3>FlameThrower</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="guppy3.jpg" alt="Cherries" style="width:100%; border: 5px solid #1d1d1d">
+      <h3>Dragon Night</h3>
+      <p></p>
+
+    </div>
+    <div class="w3-quarter">
+      <img src="index.jpg" alt="Pasta and Wine" style="width:100%; border: 5px solid #1d1d1d">
+      <h3>Snow White</h3>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="w3-left"><h2>2) IKAN KOKI BALI RANDOM (10K)</h2></div> <br><br><br>
+  <img src="BOX.png" class="w3-left" style="width: 300px; height: 300px;">
+  
+  
+  <!-- Second Photo Grid-->
+  
+  </div>
+
+ 
+  
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

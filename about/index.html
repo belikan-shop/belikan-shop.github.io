@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BELIKAN</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Koulen", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body style="background-color: lightgrey;">
+
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px; background-color: #1d1d1d;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+    class="w3-bar-item w3-button" style="color: azure">Close Menu</a>
+    <a href="../index.html" onclick="w3_close()" class="w3-bar-item w3-button" style="color:azure">Produk yang kami jual</a>
+    <a href="../about/index.html" onclick="w3_close()" class="w3-bar-item w3-button" style="color: azure;">Tentang kami</a>
+    <a href="../cara-pembelian/index.html" onclick="w3_close()" class="w3-bar-item w3-button" style="color: azure">Cara melakukan pembelian</a>
+    <a href="../cara-merawat/index.html" onclick="w3_close()" class="w3-bar-item w3-button" style="color: azure">Cara merawat ikan koki</a>
+  </nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-xlarge w3-dark-grey" style="max-width:1200px;margin:auto; color: #1d1d1d">
+    <div class="w3-button w3-padding-8 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-8"><a class="w3-button" href="https://api.whatsapp.com/send/?phone=6289685790363&text&type=phone_number&app_absent=0">Hubungi kami</a></div>
+    <div class="w3-center w3-padding-8" style="font-family: Koulen;"><img src="../logo2.PNG" style="width:100px;height:100px;" alt=""></div>
+    
+  </div>
+</div>
+<div class="w3-container w3-padding-32 w3-center" style="font-family: Poppins;">  
+    <br><br><br><br><h3>About Us</h3><br>
+    <h6>Ingin punya ikan hias untuk dirawat dirumah?
+      Belikan solusinya!</h6>
+      <p>Belikan adalah website yang menjual ikan hias Koki Bali. Ikan hias yang dijual sudah terjamin kualitasnya karena sudah dirawat dengan baik sebelumnya. Belikan menyediakan paket iklan ekslusif yang dapat anda pilih warnanya. Belikan juga menyediakan paket yang ikan koki random yang harganya lebih terjangkau. Kami juga menyediakan cara merawat ikan di dalam tank, sehingga ikan akan tetap sehat.</p>
+      <h6><i>Belikan, serve you with the best fish quality</i></h6>
+  </div>
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
